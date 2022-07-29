@@ -8,12 +8,36 @@
     <link rel="icon" href="assets/img/logo_tab.jpeg">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Events.lk</title>
 </head>
 <body>
+<!--Header Start-->
 <header>
-
+    <aside>
+        <a href="">
+            <img src="assets/img/logo.jpeg" alt=".jpeg">
+        </a>
+    </aside>
+    <nav>
+        <ul>
+            <a href="">
+                <li><i class="fa-solid fa-house"></i>HOME</li>
+            </a><a href="">
+                <li>ABOUT US</li>
+            </a><a href="">
+                <li>EVENTS</li>
+            </a><a href="">
+                <li>CONTACT US</li>
+            </a><a href="">
+                <li>REGISTER</li>
+            </a><a href="">
+                <li><i class="fa-solid fa-lock"></i>LOG IN</li>
+            </a>
+        </ul>
+    </nav>
 </header>
+<!--End header-->
 <main></main>
 <footer></footer>
 </body>
