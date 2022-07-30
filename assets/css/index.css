@@ -133,3 +133,113 @@ body > main > section:nth-child(2) > aside > div > a > h4{
 }
 
 /*second section area styles End*/
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*events area styles start*/
+body > main > section:nth-child(3){
+    width: 95%;
+    height: 1420px;
+    background: #f3f3f3;
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+body > main > section:nth-child(3) > h1{
+    font-family: sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    background: white;
+}
+
+body > main > section:nth-child(3) > section{
+    flex: 1;
+    display: flex;
+}
+
+body > main > section:nth-child(3) > section > div{
+    flex: 1;
+    margin: 22px;
+    background: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+
+body > main > section:nth-child(3) > section > div > img{
+    width: 380px;
+    margin-bottom: 15px;
+}
+
+body > main > section:nth-child(3) > section > div > i{
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #919191;
+}
+
+body > main > section:nth-child(3) > section > div > h5{
+    width: fit-content;
+    display: inline;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+body > main > section:nth-child(3) > section > div > h3{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+
+body > main > section:nth-child(3) > section > div > address{
+    width: fit-content;
+    display: inline;
+}
+
+body > main > section:nth-child(3) > section > div > a > div{
+    width: 100%;
+    height: 50px;
+    background: #a7a7a7;
+    bottom: 0;
+    position: absolute;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+body > main > section:nth-child(3) > section > div > a > div:hover{
+    background: #c9c9c9;
+}
+
+body > main > section:nth-child(3) > section > div > a > div > i{
+    font-size: 28px;
+    padding: 10px;
+    color: black;
+    position: absolute;
+    right: 120px;
+    transform: rotate(-20deg);
+}
+
+body > main > section:nth-child(3) > section > div > a > div > h4{
+    width: fit-content;
+    display: inline;
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    bottom: 15px;
+    position: absolute;
+    right: 25px;
+}
+
+body > main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2){
+    background: #f3f3f3;
+}
+
+body > main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3){
+    background: #f3f3f3;
+}
+/*events area styles End*/
