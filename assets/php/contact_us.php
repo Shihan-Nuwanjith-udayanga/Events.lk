@@ -51,6 +51,77 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
     </p>
     <!--    location map end-->
+<!--    contact form start-->
+    <section>
+        <aside>
+            <!-- drop message start -->
+            <div>
+                <form onsubmit="event.preventDefault(); validateForm()">
+                    <h3>Drop a Message</h3>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+                    <small class="error"> </small>
+                    <br>
+                    <br>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Your email">
+                    <small class="error"> </small>
+                    <br>
+                    <br>
+                    <label for="message">Message</label>
+                    <textarea type="text" id="message" placeholder="Your message"></textarea>
+                    <small class="error"> </small>
+                    <br>
+                    <br>
+                    <div class="center">
+                        <input type="submit" value="Send Message"/>
+                        <p id="success"></p>
+                    </div>
+                </form>
+            </div>
+            <!-- drop message End -->
+            <!-- contact details start -->
+            <div>
+                <h2>Contact Details</h2>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <h3>+94 773 381 841</h3>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h3>+94 915 682 251</h3>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <h3>shihannuwanjith@gmail.com</h3>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i>
+                    </div>
+                    <h3>www.shihannuwanjith.com</h3>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3>No:449/12, Kalukanda, Thalgasyaya, Akmeemana</h3>
+                </div>
+            </div>
+            <!-- contact details End -->
+        </aside>
+    </section>
+    <!-- contact form End -->
 </main>
 <footer>
     <section>
@@ -127,5 +198,6 @@
         <h5>Copyright 2015 © Events.lk All Rights Reserved.</h5>
     </section>
 </footer>
+<script src="../js/contact.js"></script>
 </body>
 </html>
