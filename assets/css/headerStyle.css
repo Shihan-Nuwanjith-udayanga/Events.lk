@@ -1,0 +1,53 @@
+/*header styles start*/
+body > header{
+    width: 100%;
+    height: 60px;
+    box-shadow: 6px 1px 3px 1px #e3e3e3;
+    display: flex;
+}
+
+body > header > aside{
+    flex: 1;
+}
+
+body > header > aside > a > img{
+    width: 200px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+body > header > nav{
+    flex: 1;
+}
+
+body > header > nav > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+}
+
+body > header > nav > ul > a{
+    padding: 8px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body > header > nav > ul > a:hover{
+    color: #868686;
+}
+
+body > header > nav > ul > a:nth-child(6){
+    background: #d7d7d7;
+    border-radius: 3px;
+}
+
+body > header > nav > ul > a > li > i{
+    margin-right: 6px;
+}
+
+/*End header styles*/
