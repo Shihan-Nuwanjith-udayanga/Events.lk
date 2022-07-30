@@ -8,7 +8,11 @@
     <link rel="icon" href="assets/img/logo_tab.jpeg">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/headerStyle.css">
+    <link rel="stylesheet" href="assets/css/footerStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+          integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Events.lk</title>
 </head>
 <body>
@@ -21,13 +25,13 @@
     </aside>
     <nav>
         <ul>
-            <a href="">
+            <a href="index.php">
                 <li><i class="fa-solid fa-house"></i>HOME</li>
-            </a><a href="">
+            </a><a href="assets/php/about_us.php">
                 <li>ABOUT US</li>
             </a><a href="">
                 <li>EVENTS</li>
-            </a><a href="">
+            </a><a href="assets/php/contact_us.php">
                 <li>CONTACT US</li>
             </a><a href="">
                 <li>REGISTER</li>
@@ -39,7 +43,18 @@
 </header>
 <!--End header-->
 <main>
-
+    <!--start slider area-->
+    <section>
+        <aside>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </aside>
+    </section>
+    <!--End slider area-->
 </main>
 <footer>
     <section>
@@ -60,10 +75,57 @@
         </div>
     </section>
     <section>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+            <ul>
+                <a href="">
+                    <li>HOME</li>
+                </a><a href="">
+                    <li>ABOUT US</li>
+                </a><a href="">
+                    <li>EVENTS</li>
+                </a><a href="">
+                    <li>CONTACT US</li>
+                </a><a href="">
+                    <li>REGISTER</li>
+                </a><a href="">
+                    <li>LOG IN</li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <a href="">
+                    <li>FAQ</li>
+                </a><a href="">
+                    <li>Privacy Policy</li>
+                </a><a href="">
+                    <li>Terms & conditions</li>
+                </a><a href="">
+                    <li>Sitemap</li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <h4>Address</h4>
+            <address>
+                Events.lk <br>
+                449/12, <br>
+                Kalukanda,<br>
+                Thalgasyaya,<br>
+                Akmeemana,<br>
+                Galle, Sri Lanka
+            </address>
+        </div>
+        <div>
+            <h4>Follow us on</h4>
+            <ul>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </ul>
+        </div>
     </section>
     <section>
         <h5>Copyright 2015 © Events.lk All Rights Reserved.</h5>
