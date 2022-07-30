@@ -1,6 +1,6 @@
 /*slider area styles start*/
 
-body > main > section {
+body > main > section:nth-child(1) {
     width: 60%;
     height: 450px;
     background: black;
@@ -12,7 +12,7 @@ body > main > section {
     margin-bottom: 15px;
 }
 
-body > main > section > aside{
+body > main > section:nth-child(1)  > aside{
     width: 600%;
     height: 100%;
     background: gray;
@@ -20,30 +20,30 @@ body > main > section > aside{
     animation: slider 15s infinite alternate;
 }
 
-body > main > section > aside > div{
+body > main > section:nth-child(1)  > aside > div{
     height: 100%;
     width: 100%;
 }
 
-body > main > section > aside > div:nth-child(1){
+body > main > section:nth-child(1)  > aside > div:nth-child(1){
     background: url(../img/1.jpg);
     background-size: cover;
     background-position: center;
 }
 
-body > main > section > aside > div:nth-child(2){
+body > main > section:nth-child(1)  > aside > div:nth-child(2){
     background: url(../img/2.jpg);
     background-size: cover;
     background-position: center;
 }
 
-body > main > section > aside > div:nth-child(3){
+body > main > section:nth-child(1)  > aside > div:nth-child(3){
     background: url(../img/3.jpg);
     background-size: cover;
     background-position: center;
 }
 
-body > main > section > aside > div:nth-child(4){
+body > main > section:nth-child(1)  > aside > div:nth-child(4){
     background: url(../img/4.jpg);
     background-size: cover;
     background-position: center;
@@ -68,3 +68,68 @@ body > main > section > aside > div:nth-child(4){
 /*End area styles start*/
 /*//////////////////////////////////////////////////////////////////////////*/
 
+/*second section area styles start*/
+body > main > section:nth-child(2){
+    width: 100%;
+    height: 160px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+body > main > section:nth-child(2) > aside{
+    width: 85%;
+    height: 100px;
+    background: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    display: flex;
+}
+
+body > main > section:nth-child(2) > aside > div{
+    flex: 1;
+    text-align: center;
+}
+
+body > main > section:nth-child(2) > aside > div > a > div{
+    border: 1px solid #c2c2c2;
+    width: 70px;
+    height: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+
+body > main > section:nth-child(2) > aside > div > a > div > i{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    color: black;
+}
+
+body > main > section:nth-child(2) > aside > div > a > div:hover{
+    background: #868686;
+}
+
+body > main > section:nth-child(2) > aside > div > a > div > i:hover{
+    color: white;
+}
+
+body > main > section:nth-child(2) > aside > div > a{
+    text-decoration: none;
+}
+
+body > main > section:nth-child(2) > aside > div > a > h4{
+    color: #606060;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/*second section area styles End*/
