@@ -242,13 +242,13 @@
     <section>
         <div>
             <ul>
-                <a href="">
+                <a href="/index.php">
                     <li>HOME</li>
-                </a><a href="">
+                </a><a href="about_us.php">
                     <li>ABOUT US</li>
-                </a><a href="">
+                </a><a href="events.php">
                     <li>EVENTS</li>
-                </a><a href="">
+                </a><a href="contact_us.php">
                     <li>CONTACT US</li>
                 </a><a href="">
                     <li>REGISTER</li>
