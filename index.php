@@ -29,7 +29,7 @@
                 <li><i class="fa-solid fa-house"></i>HOME</li>
             </a><a href="assets/php/about_us.php">
                 <li>ABOUT US</li>
-            </a><a href="">
+            </a><a href="assets/php/events.php">
                 <li>EVENTS</li>
             </a><a href="assets/php/contact_us.php">
                 <li>CONTACT US</li>

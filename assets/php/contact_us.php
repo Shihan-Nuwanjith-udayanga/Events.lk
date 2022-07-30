@@ -9,11 +9,8 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/headerStyle.css">
     <link rel="stylesheet" href="../css/footerStyle.css">
-    <link rel="stylesheet" href="../css/about_us.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-          integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>ABOUT US</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CONTACT US</title>
 </head>
 <body>
 <!--Header Start-->
@@ -43,25 +40,7 @@
 </header>
 <!--End header-->
 <main>
-    <h1>ABOUT US</h1>
-    <section>
-        <p>Events.lk is growing to become the Sri Lanka’s leading event information platform.
-            We have group of well-resourced professionals who have more than 10 years of experience in event management
-            and concept developing field consuming their capabilities with the latest technology to meet international
-            standards.
-            searching for upcoming events events.lk is the place to find them by giving our customers the maximum
-            service with a new experience.
-            We're constantly rolling out new features to improve our service with an outstanding selection of
-            tickets.</p>
-        <ul>
-            <li>Movie tickets</li>
-            <li>Bus tickets ,</li>
-            <li>Lottery tickets ,</li>
-            <li>Ticket deals and offers ,</li>
-            <li>Hotel offers and many more to come in near future.</li>
-        </ul>
-        <img src="../img/logo.jpeg" alt="JPEG">
-    </section>
+
 </main>
 <footer>
     <section>
