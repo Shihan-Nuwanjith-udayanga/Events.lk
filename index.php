@@ -104,6 +104,132 @@
             </div>
         </aside>
     </section>
+<!--    Create Events Area Start-->
+    <section>
+        <h1>EVENTS</h1>
+        <section>
+            <div>
+                <img src="assets/img/1.jpg" alt="JPG">
+                <i class="fa-solid fa-calendar-days"></i><h5>WED AUG 10</h5>
+                <i class="fa-solid fa-clock"></i>
+                <time>07.00PM</time>
+                <h3>EVENTSTALK Live In Concert -Limited Offer</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <address>Nelum Pokuna Outdoor Arena</address>
+                <a href="">
+                    <div>
+                        <i class="fa-solid fa-ticket"></i>
+                        <h4>Buy Tickets</h4>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <img src="assets/img/2.jpg" alt="JPG">
+                <i class="fa-solid fa-calendar-days"></i><h5>SAT AUG 13</h5>
+                <i class="fa-solid fa-clock"></i>
+                <time>07.00PM</time>
+                <h3>INFINITY Live At Nelum Pokuna</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <address>Nelum Pokuna Outdoor Arena</address>
+                <a href="">
+                    <div>
+                        <i class="fa-solid fa-ticket"></i>
+                        <h4>Buy Tickets</h4>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <img src="assets/img/3.jpg" alt="JPG">
+                <i class="fa-solid fa-calendar-days"></i><h5>SUND AUG 14</h5>
+                <i class="fa-solid fa-clock"></i>
+                <time>06.30PM</time>
+                <h3>Legend Plus Current Live In Concert</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <address>National Youth Center Auditorium</address>
+                <a href="">
+                    <div>
+                        <i class="fa-solid fa-ticket"></i>
+                        <h4>Buy Tickets</h4>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section>
+            <div>
+                <img src="assets/img/6.jpg" alt="JPG">
+                <i class="fa-solid fa-calendar-days"></i><h5>SAT OCT 15</h5>
+                <i class="fa-solid fa-clock"></i>
+                <time>06.30PM</time>
+                <h3>Mathaka Live In Concert</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <address>National Youth Center Auditorium - Maharagama</address>
+                <a href="">
+                    <div>
+                        <i class="fa-solid fa-ticket"></i>
+                        <h4>Buy Tickets</h4>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <img src="assets/img/5.jpg" alt="JPG">
+                <i class="fa-solid fa-calendar-days"></i><h5>WED JULY 27</h5>
+                <i class="fa-solid fa-clock"></i>
+                <time>07.00PM</time>
+                <h3>Nethrawani Unplugged Live In Concert</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <address>Gymnasium University of Peradeniya</address>
+                <a href="">
+                    <div>
+                        <i class="fa-solid fa-ticket"></i>
+                        <h4>Buy Tickets</h4>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <img src="assets/img/4.jpg" alt="JPG">
+                <i class="fa-solid fa-calendar-days"></i><h5>FRI JULY 29</h5>
+                <i class="fa-solid fa-clock"></i>
+                <time>07.00PM</time>
+                <h3>Joliya Live in Concert</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <address>Cinnamon Lakeside Colombo</address>
+                <a href="">
+                    <div>
+                        <i class="fa-solid fa-ticket"></i>
+                        <h4>Buy Tickets</h4>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section>
+            <div>
+                <img src="assets/img/1.jpg" alt="JPG">
+                <i class="fa-solid fa-calendar-days"></i><h5>WED AUG 10</h5>
+                <i class="fa-solid fa-clock"></i>
+                <time>07.00PM</time>
+                <h3>EVENTSTALK Live In Concert -Limited Offer</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <address>Nelum Pokuna Outdoor Arena</address>
+                <a href="">
+                    <div>
+                        <i class="fa-solid fa-ticket"></i>
+                        <h4>Buy Tickets</h4>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <!--                <img src="" alt="JPG">-->
+                <!--                <i class="fa-solid fa-calendar-days"></i><h5>WED AUG 10</h5>-->
+                <!--                <i class="fa-solid fa-clock"></i><time>07.00PM</time>-->
+            </div>
+            <div>
+                <!--                <img src="" alt="JPG">-->
+                <!--                <i class="fa-solid fa-calendar-days"></i><h5>WED AUG 10</h5>-->
+                <!--                <i class="fa-solid fa-clock"></i><time>07.00PM</time>-->
+            </div>
+        </section>
+        <!--    Create Events Area End-->
+    </section>
 </main>
 <footer>
     <section>
