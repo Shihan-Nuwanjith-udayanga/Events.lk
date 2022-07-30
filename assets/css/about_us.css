@@ -1,0 +1,32 @@
+body > main > h1{
+    font-family: sans-serif;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    background: white;
+}
+
+body > main > section{
+    width: 86%;
+    height: 500px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body > main > section > p{
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+body > main > section > ul > li{
+    list-style: none;
+    font-family: sans-serif;
+    height: 30px;
+}
+
+body > main > section > img{
+    width: 310px;
+    padding: 20px;
+}
