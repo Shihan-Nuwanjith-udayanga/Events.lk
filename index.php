@@ -38,7 +38,36 @@
     </nav>
 </header>
 <!--End header-->
-<main></main>
-<footer></footer>
+<main>
+
+</main>
+<footer>
+    <section>
+        <div>
+            <i class="fa-solid fa-headset"></i>
+            <h4>For assistance call</h4>
+            <h3>+94 727 300 400 / +94 727 600 700</h3>
+        </div>
+        <div>
+            <i class="fa-solid fa-clock"></i>
+            <h4>Working Hours</h4>
+            <h3>9.00 AM - 5.00 PM</h3>
+        </div>
+        <div>
+            <i class="fa-solid fa-paper-plane"></i>
+            <h4>email us on</h4>
+            <a href=""><h3>support@events.lk</h3></a>
+        </div>
+    </section>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+    <section>
+        <h5>Copyright 2015 © Events.lk All Rights Reserved.</h5>
+    </section>
+</footer>
 </body>
 </html>
