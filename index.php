@@ -55,6 +55,55 @@
         </aside>
     </section>
     <!--End slider area-->
+    <section>
+        <aside>
+            <div><a href="">
+                    <div><i class="fa-solid fa-square-check"></i></div>
+                    <h4>All</h4>
+                </a>
+            </div>
+            <div><a href="">
+                    <div><i class="fa-solid fa-music"></i></div>
+                    <h4>Musical</h4>
+                </a>
+            </div>
+            <div><a href="">
+                    <div><i class="fa-solid fa-tent"></i></div>
+                    <h4>Concert</h4>
+                </a>
+            </div>
+            <div><a href="">
+                    <div><i class="fa-solid fa-trophy"></i></div>
+                    <h4>Sports</h4>
+                </a>
+            </div>
+            <div><a href="">
+                    <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                    <h4>Seminars</h4>
+                </a>
+            </div>
+            <div><a href="">
+                    <div><i class="fa-solid fa-masks-theater"></i></div>
+                    <h4>Drama</h4>
+                </a>
+            </div>
+            <div><a href="">
+                    <div><i class="fa-solid fa-people-group"></i></div>
+                    <h4>Exhibition</h4>
+                </a>
+            </div>
+            <div><a href="">
+                    <div><i class="fa-solid fa-clapperboard"></i></div>
+                    <h4>Movies</h4>
+                </a>
+            </div>
+            <div><a href="">
+                    <div><i class="fa-solid fa-star"></i></div>
+                    <h4>Other</h4>
+                </a>
+            </div>
+        </aside>
+    </section>
 </main>
 <footer>
     <section>
