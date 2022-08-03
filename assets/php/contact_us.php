@@ -56,25 +56,25 @@
         <aside>
             <!-- drop message start -->
             <div>
-                <form onsubmit="event.preventDefault(); validateForm()">
+                <form  action= "process_form.php" method="post">
                     <h3>Drop a Message</h3>
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" placeholder="Your name">
+                    <input type="text" name="name" id="name" placeholder="Your name">
                     <small class="error"> </small>
                     <br>
                     <br>
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" placeholder="Your email">
+                    <input type="email" name="email" id="email" placeholder="Your email">
                     <small class="error"> </small>
                     <br>
                     <br>
                     <label for="message">Message</label>
-                    <textarea type="text" id="message" placeholder="Your message"></textarea>
+                    <textarea type="text" name="message" id="message" placeholder="Your message"></textarea>
                     <small class="error"> </small>
                     <br>
                     <br>
                     <div class="center">
-                        <input type="submit" value="Send Message"/>
+                        <input type="submit" value="Send Message" name="submit">
                         <p id="success"></p>
                     </div>
                 </form>
