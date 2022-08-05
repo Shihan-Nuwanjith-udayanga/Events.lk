@@ -56,7 +56,7 @@
         <aside>
             <!-- drop message start -->
             <div>
-                <form  action= "process_form.php" method="post" onsubmit="validateForm() ">
+                <form  action= "" method="post" onsubmit="validateForm() ">
                     <h3>Drop a Message</h3>
                     <label for="name">Full Name</label>
                     <input type="text" name="name" id="name" placeholder="Your name" required>
