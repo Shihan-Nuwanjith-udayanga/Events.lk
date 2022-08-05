@@ -56,20 +56,20 @@
         <aside>
             <!-- drop message start -->
             <div>
-                <form  action= "process_form.php" method="post">
+                <form  action= "process_form.php" method="post" onsubmit="validateForm() ">
                     <h3>Drop a Message</h3>
                     <label for="name">Full Name</label>
-                    <input type="text" name="name" id="name" placeholder="Your name">
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
                     <small class="error"> </small>
                     <br>
                     <br>
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Your email">
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
                     <small class="error"> </small>
                     <br>
                     <br>
                     <label for="message">Message</label>
-                    <textarea type="text" name="message" id="message" placeholder="Your message"></textarea>
+                    <textarea type="text" name="message" id="message" placeholder="Your message" required></textarea>
                     <small class="error"> </small>
                     <br>
                     <br>
