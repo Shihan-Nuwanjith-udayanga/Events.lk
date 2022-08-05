@@ -1,3 +1,29 @@
+<?php
+    //checking if the form is submit
+    if ( isset($_POST['submit']) ) {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+
+        $to = 'shihannuwanjith@gmail.com';
+        $mail_subject = 'Message from Events.lk';
+        $email_body = "Message from Contact Us Page of the Website: <br>";
+        $email_body = "<b>From :</b> {$name} <br>";
+        $email_body = "<b>Email :</b> {$email} <br>";
+        $email_body = "<b>Message :</b><br>" . nl2br(strip_tags($message));
+
+        $header = "From: {$email}\r\nContent-Type: text/html;";
+
+        $send_mail_result = mail($to,$mail_subject,$email_body,$header);
+
+        if ($send_mail_result){
+            echo "Message Sent";
+        }else{
+            echo "Message Not Sent";
+        }
+    }
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -55,8 +81,8 @@
     <section>
         <aside>
             <!-- drop message start -->
-            <div>
-                <form  action= "" method="post" onsubmit="validateForm() ">
+            <div class="container">
+                <form  action= "contact_us.php" method="post" onsubmit="validateForm()">
                     <h3>Drop a Message</h3>
                     <label for="name">Full Name</label>
                     <input type="text" name="name" id="name" placeholder="Your name" required>
