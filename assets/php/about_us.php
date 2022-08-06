@@ -33,9 +33,9 @@
                 <li>EVENTS</li>
             </a><a href="contact_us.php">
                 <li>CONTACT US</li>
-            </a><a href="">
+            </a><a href="registration.php">
                 <li>REGISTER</li>
-            </a><a href="">
+            </a><a href="log_in.php">
                 <li><i class="fa-solid fa-lock"></i>LOG IN</li>
             </a>
         </ul>
@@ -92,9 +92,9 @@
                     <li>EVENTS</li>
                 </a><a href="contact_us.php">
                     <li>CONTACT US</li>
-                </a><a href="">
+                </a><a href="registration.php">
                     <li>REGISTER</li>
-                </a><a href="">
+                </a><a href="log_in.php">
                     <li>LOG IN</li>
                 </a>
             </ul>
