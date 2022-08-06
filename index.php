@@ -303,7 +303,7 @@
         </div>
     </section>
     <section>
-        <h5>Copyright 2015 © Events.lk All Rights Reserved.</h5>
+        <h5>Copyright 2022 © Events.lk All Rights Reserved.</h5>
     </section>
 </footer>
 </body>
