@@ -1,17 +1,15 @@
 <?php
 
-    $dbhost = 'localhost';
-    $dbuser = 'root';
-    $dbpass = '';
-    $dbname = 'userdb';
+$dbhost = 'localhost';
+$dbuser = 'root';
+$dbpass = '';
+$dbname = 'userdb';
 
-    $connection = mysqli_connect('localhost', 'root', '', 'userdb');
+$connection = mysqli_connect('localhost', 'root', 'nuwanjith', 'userdb');
 
-    // Checking the connection
-    if (mysqli_connect_errno()) {
-        die('Database connection failed ' . mysqli_connect_error());
-    } else {
-        echo "success";
-    }
+// Checking the connection
+if (mysqli_connect_errno()) {
+    die('Database connection failed ' . mysqli_connect_error());
+}
 
 ?>
