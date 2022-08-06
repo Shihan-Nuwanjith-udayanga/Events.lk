@@ -33,9 +33,9 @@
                 <li>EVENTS</li>
             </a><a href="assets/php/contact_us.php">
                 <li>CONTACT US</li>
-            </a><a href="">
+            </a><a href="assets/php/registration.php">
                 <li>REGISTER</li>
-            </a><a href="">
+            </a><a href="assets/php/log_in.php">
                 <li><i class="fa-solid fa-lock"></i>LOG IN</li>
             </a>
         </ul>
@@ -252,17 +252,17 @@
     <section>
         <div>
             <ul>
-                <a href="">
+                <a href="index.php">
                     <li>HOME</li>
-                </a><a href="">
+                </a><a href="assets/php/about_us.php">
                     <li>ABOUT US</li>
-                </a><a href="">
+                </a><a href="assets/php/events.php">
                     <li>EVENTS</li>
-                </a><a href="">
+                </a><a href="assets/php/contact_us.php">
                     <li>CONTACT US</li>
-                </a><a href="">
+                </a><a href="assets/php/registration.php">
                     <li>REGISTER</li>
-                </a><a href="">
+                </a><a href="assets/php/log_in.php">
                     <li>LOG IN</li>
                 </a>
             </ul>
